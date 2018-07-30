@@ -5,7 +5,7 @@ window.onload = function(){
     if(!checkCalc()){
         var style = document.createElement('link');
         style.setAttribute('rel','stylesheet');
-        style.setAttribute('href','css/style-IE9.css');
+        style.setAttribute('href','css/style-nocalc.css');
         document.body.appendChild(style);
     }
 
