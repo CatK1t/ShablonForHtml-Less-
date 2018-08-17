@@ -2,11 +2,7 @@
 .font-face(@family, @filename: @family, @weight: normal, @style: normal){
     @font-face{
       font-family: @family;
-      src:url('../fonts/@{filename}/@{filename}.eot');
-      src:url('../fonts/@{filename}/@{filename}.eot?#iefix') format('embedded-opentype'),
-          url('../fonts/@{filename}/@{filename}.woff') format('woff'),
-          url('../fonts/@{filename}/@{filename}.ttf') format('truetype'),
-          url('../fonts/@{filename}/@{filename}.svg#@{filename}') format('svg');
+      src: url('../fonts/@{filename}/@{filename}.ttf') format('truetype');
       font-weight: @weight;
       font-style: @style;
     }

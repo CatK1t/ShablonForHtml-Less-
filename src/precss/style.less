@@ -2,5 +2,19 @@
 @import "vars.less";
 @import "font-face.less";
 
-.reset();
+.font-face(BEYNO, BEYNO, bold);
 
+.reset();
+body{
+    z-index: 1;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+	&.img-width{
+        width: 100%;
+    }}
+//header start
